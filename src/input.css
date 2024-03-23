@@ -10,13 +10,13 @@
 }
 .hdi-top-menu-item {
   @apply cursor-pointer py-1 hover:text-gray-800 relative after:absolute after:bottom-0 after:left-0
-    after:bg-light-coffee after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out 
+    after:bg-coffee-200 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out 
     after:duration-300;
 }
 
 .hdi-top-menu-item-active {
   @apply text-black relative after:absolute after:bottom-0 after:left-0
-  after:bg-light-coffee after:h-0.5 after:w-full;
+  after:bg-coffee-200 after:h-0.5 after:w-full;
 }
 
 .hdi-icon {
@@ -25,4 +25,18 @@
 
 .hdi-badge-cirle {
   @apply text-xs text-center rounded-full px-1.5;
+}
+
+/* Sub Headline */
+
+.hdi-subheadline {
+  @apply flex justify-center items-center mb-24;
+}
+
+.hdi-subheadline-deco-line {
+  @apply w-8 h-px bg-gray-200;
+}
+
+.hdi-subheadline-label {
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
 }
