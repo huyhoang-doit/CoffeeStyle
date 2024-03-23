@@ -10,6 +10,7 @@ Clone project and run test.
 ```
 $ git clone
 $ cd <project_dir>
+$ npm install
 $ npm run build:css
 $ npm run start:dev
 ```

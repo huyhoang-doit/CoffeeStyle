@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Kalar: ["Karlar", "sans-serif"],
+        Karlar: ["Karla", "sans-serif"],
       },
       colors: {
         "light-coffee": "#C89F94",
@@ -17,6 +17,9 @@ module.exports = {
       },
       animation: {
         slideDown: "slideDown .2s linear",
+      },
+      backgroundImage: {
+        "slider-bg": "url('./img/slider_bg.jpg')",
       },
     },
   },
