@@ -1,12 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* hdi == huyhoangdoit :)) */
+
+.hdi-topmenu-expanded {
+  @apply absolute top-10 z-50 w-full text-center  bg-white/[.6] animate-slideDown;
+}
 .hdi-top-menu-item {
   @apply cursor-pointer py-1 hover:text-gray-800 relative after:absolute after:bottom-0 after:left-0
     after:bg-light-coffee after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out 
     after:duration-300;
+}
+
+.hdi-top-menu-item-active {
+  @apply text-black relative after:absolute after:bottom-0 after:left-0
+  after:bg-light-coffee after:h-0.5 after:w-full;
 }
 
 .hdi-icon {
