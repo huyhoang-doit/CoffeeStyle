@@ -43,5 +43,5 @@
 
 .hdi-button {
   @apply text-center uppercase tracking-wider py-4 px-7 text-xs
-  font-medium cursor-pointer hover:bg-opacity-90;
+  font-medium cursor-pointer hover:bg-opacity-95;
 }
