@@ -6,7 +6,7 @@
 /* hdi == huyhoangdoit :)) */
 
 .hdi-topmenu-expanded {
-  @apply absolute top-10 z-50 w-full text-center  bg-white/[.6] animate-slideDown;
+  @apply absolute top-10 z-50 w-full text-center  bg-white bg-opacity-90 animate-slideDown;
 }
 .hdi-top-menu-item {
   @apply cursor-pointer py-1 hover:text-gray-800 relative after:absolute after:bottom-0 after:left-0
