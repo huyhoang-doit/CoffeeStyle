@@ -30,7 +30,7 @@
 /* Sub Headline */
 
 .hdi-subheadline {
-  @apply flex justify-center items-center mb-24;
+  @apply flex justify-center items-center my-20;
 }
 
 .hdi-subheadline-deco-line {
@@ -44,4 +44,49 @@
 .hdi-button {
   @apply text-center uppercase tracking-wider py-4 px-7 text-xs
   font-medium cursor-pointer hover:bg-opacity-95;
+}
+
+#root {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+.hdi-parallax,
+.hdi-static {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.hdi-parallax {
+  height: 40vh;
+}
+
+.hdi-static {
+  height: auto;
+  z-index: 999;
+  background: white;
+}
+
+.hdi-parallax-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+@media screen(xl) {
+  .hdi-parallax {
+    height: 70vh;
+    transform-style: preserve-3d;
+  }
+  .hdi-parallax-img {
+    transform: translateZ(-1px) scale(1.5);
+  }
 }
