@@ -46,44 +46,34 @@
   font-medium cursor-pointer hover:bg-opacity-95;
 }
 
+
 #root {
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+ @apply h-full overflow-x-hidden overflow-y-auto;
+}
+
+#root {
   perspective: 2px;
 }
 
 .hdi-parallax,
 .hdi-static {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  flex-direction: column;
+  @apply flex items-center justify-center relative flex-col;
 }
 
 .hdi-parallax {
-  height: 40vh;
+  @apply h-[40vh] xl:h-[70vh];
 }
 
 .hdi-static {
-  height: auto;
-  z-index: 999;
-  background: white;
+  @apply h-auto z-40 bg-white;
 }
 
 .hdi-parallax-img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-attachment: fixed;
-  z-index: -1;
-  background-size: cover;
-  background-position: center;
+  @apply absolute w-full h-full bg-fixed -z-10 bg-cover bg-center;
 }
+
 @media screen(xl) {
   .hdi-parallax {
-    height: 70vh;
     transform-style: preserve-3d;
   }
   .hdi-parallax-img {
