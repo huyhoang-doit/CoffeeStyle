@@ -4,6 +4,7 @@
 @tailwind utilities;
 
 /* hdi == huyhoangdoit :)) */
+/* STYLE - index.html */
 
 .hdi-topmenu-expanded {
   @apply absolute top-10 z-50 w-full text-center  bg-white bg-opacity-90 animate-slideDown;
@@ -79,4 +80,8 @@
   .hdi-parallax-img {
     transform: translateZ(-1px) scale(1.5);
   }
+}
+/* STYLE - products.html */
+.hdi-bt-style {
+  @apply text-coffee-200 hover:text-coffee-600 w-max border-solid border-[1px] border-gray-200 hover:border-coffee-200 delay-300;
 }
