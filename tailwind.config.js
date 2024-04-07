@@ -18,6 +18,9 @@ module.exports = {
           400: "#A25F4B",
           600: "#744838",
         },
+        background: {
+          1: "#F6F6F6",
+        }
       },
       keyframes: {
         slideDown: {
