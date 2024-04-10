@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Single-HuyHoang-doit</title>
+  <link rel="icon" type="image/x-icon" href="./img/favicon/HDI.png" sizes="16x16">
+  <link href="./output.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header class="p-6 mx-auto w-full max-w-screen-2xl fixed top-0 left-0 right-0 z-50 bg-white border-b-[1px]">
+    <nav class="flex flex-row justify-between item-center relative">
+      <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
+        CoffeeStyle.
+      </div>
+      <ul id="hdi-top-menu"
+        class="basis-3/6 hidden lg:flex  lg:items-center  lg:justify-end  lg:gap-8 uppercase text-sm text-gray-500 font-medium">
+        <li class="hdi-top-menu-item ">
+          <a class="" href="index.html">Home</a>
+        </li>
+        <li class="hdi-top-menu-item">
+          <a class="" href="./products.html">Products</a>
+        </li>
+        <li class="hdi-top-menu-item">
+          <a class="" href="./blog.html">Blog</a>
+        </li>
+        <li class="hdi-top-menu-item">
+          <a class="" href="./about.html">About</a>
+        </li>
+        <li class="hdi-top-menu-item">
+          <a class="" href="./contact.html">Contact</a>
+        </li>
+        <li class="hdi-top-menu-item">
+          <a class="" target="_blank" href="https://github.com/huyhoang-doit">HuyHoang-doit</a>
+        </li>
+      </ul>
+      <ul
+        class="basis-3/6 lg:basis-1/6 flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
+        <li class="hdi-top-menu-item">
+          <a href="#" class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="hdi-icon">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+            </svg>
+            <span class="mx-2">Cart</span>
+            <span class="hdi-badge-cirle bg-orange-400 text-white">10</span>
+          </a>
+        </li>
+      </ul>
+      <div id="hdi-toggle-top-menu-icon" class="basis-1/6 lg:hidden flex items-center cursor-pointer sm:px-8 px-3 ">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="hdi-icon">
+          <path fill-rule="evenodd"
+            d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+            clip-rule="evenodd" />
+        </svg>
+
+      </div>
+    </nav>
+  </header><!-- End header -->
+  <div id="root">
+    <div class="content-wrapper hdi-static font-Karlar text-base mx-auto px-8 ">
+      <!-- Content wrapper #1 -->
+      <div class="product-content w-[95%] xl:w-[65%] mx-auto mt-48 mb-28">
+        <div class="product-information flex flex-col lg:flex-row justify-center items-center gap-5 mb-24">
+          <div class="basis-1/2 product-pic w-full">
+            <div
+              class="h-[300px] md:h-[460px] w-full lg:w-[460px]  bg-[url('./img/feature_mug_8.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="huyhoang-doit">
+                <div class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out 
+                            hover:duration-300 relative group">
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="basis-1/2 hdi-slide-show-post  pl-8 xl:pl-14 text-center md:text-left">
+            <div class="text-3xl md:text-4xl mb-4">
+              How long does a cup of coffee keep you awake?
+            </div>
+            <div class="text-gray-500 leading-7 mb-4">
+              A et quia qui quia. Sunt tempore est sit facilis. Ducimus est ut neque sunt eum iusto. Consequatur quia
+              occaecati enim omnis repudiandae labore.
+            </div>
+            <div class="text-2xl md:text-3xl mb-4">
+              $ 99.00 USD
+            </div>
+            <div class="hdi-little-title">
+              quantity
+            </div>
+            <div class="flex flex-col md:flex-row justify-start items-center gap-3 mt-2">
+              <input class="py-4 px-7 text-sm text-center w-full md:w-max
+              font-medium bg-gray-50 border-[1px]" type="number" min="1" max="15" value="1">
+              <div class="hdi-button bg-gray-900 text-white w-full md:w-max mx-auto md:mx-0">
+                Add to cart
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-detail flex flex-col md:flex-row justify-center items-start gap-5">
+          <div class="details basis-1/2">
+            <div class="hdi-little-title mb-5">
+              details
+            </div>
+            <div class="text-gray-500 leading-7 mb-4">
+              Aut dicta iusto neque ea voluptates. Id cupiditate cum sequi eum neque dolorem dicta quisquam non. Quas
+              vel perferendis accusantium eum cum voluptates libero doloribus voluptates. A et quia qui quia. Sunt
+              tempore est sit facilis. Ducimus est ut neque sunt eum iusto. Consequatur quia occaecati enim omnis
+              repudiandae labore.
+            </div>
+          </div>
+          <div class="basis-1/2 hdi-slide-show-post xl:pl-14 md:text-left">
+            <div class="hdi-little-title mb-5">
+              dimensions
+            </div>
+            <div class="text-gray-500 leading-7 mb-4">
+              <ul class="list-disc">
+                <li>Lenght (in):<span class="text-gray-900"> 45.0</span></li>
+                <li>Height (in):<span class="text-gray-900"> 98.0</span></li>
+                <li>Width (in):<span class="text-gray-900"> 56.0</span></li>
+                <li>Weight (oz):<span class="text-gray-900"> 200.0</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div><!-- End product content -->
+      <div class="banner-single-page h-auto lg:h-[460px]">
+        <div class="flex flex-col lg:flex-row w-[100vw] bg-slate-900 bg-fixed relative left-[calc(-50vw+50%)]">
+          <div
+            class="banner-pic h-[300px] lg:h-[460px] w-full lg:w-1/2 bg-[url('./img/banner_single_page.jpg')] bg-cover bg-no-repeat bg-center">
+          </div>
+          <div
+            class="banner-content h-full w-full lg:w-1/3 px-6 py-12 lg:px-0 lg:pl-20 text-center text-white  lg:text-left">
+            <div class="text-2xl mb-2">
+              Handmade by <span class="font-semibold">CoffeeStyle.</span>
+            </div>
+            <div class="text-lg mb-7">
+              The most versatile furniture system ever created. Designed to fit your life.
+            </div>
+            <div class="w-full flex flex-col lg:flex-row justify-center items-center lg:items-start mb-7">
+              <div class="banner-ico basis-1/6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-8 h-8 inline-block px-auto">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z" />
+                </svg>
+              </div>
+              <div class="basis-5/6 ">
+                <div>Premium Quality</div>
+                <div class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                  enim in.</div>
+              </div>
+            </div>
+            <div class="w-full flex flex-col lg:flex-row justify-center items-center lg:items-start mb-7">
+              <div class="banner-ico basis-1/6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-8 h-8 inline-block px-auto">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+                </svg>
+              </div>
+              <div class="basis-5/6 ">
+                <div>Gentle to the Environment</div>
+                <div class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                  enim in.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- End banner single page -->
+      <div class="hdi-subheadline ">
+        <div class="hdi-subheadline-deco-line"></div>
+        <div class="hdi-subheadline-label">
+          You mignt also like these</div>
+        <div class="hdi-subheadline-deco-line"></div>
+      </div>
+      <div class="more-products  w-[95%] xl:w-[65%] mx-auto mb-24">
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 md:gap-4">
+          <div class="hdi-product-card ">
+            <div class="h-[380px] bg-[url('./img/feature_mug_3.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="huyhoang-doit">
+                <div class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out 
+                                        hover:duration-300 relative group">
+                  <div
+                    class="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400">
+                    On Sale.</div>
+                  <div
+                    class="hdi-button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn ">
+                    Explore Mug</div>
+                </div>
+              </a>
+            </div>
+            <div class="text-center my-8 ">
+              <a href="#" alt="huyhoang-doit">
+                <div class="text-xl mb-3 hover:text-coffee-400">
+                  Red Love Cup
+                </div>
+              </a>
+              <div class="">
+                <span class="text-xl text-coffee-400">$25.00</span>
+                <span class="ml-2 text-gray-400 line-through">$ 37.00 USD</span>
+              </div>
+            </div>
+          </div>
+          <div class="hdi-product-card ">
+            <div class="h-[380px] bg-[url('./img/feature_mug_4.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="huyhoang-doit">
+                <div class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out 
+                                        hover:duration-300 relative group">
+                  <div
+                    class="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400">
+                    On Sale.</div>
+                  <div
+                    class="hdi-button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn ">
+                    Explore Mug</div>
+                </div>
+              </a>
+            </div>
+            <div class="text-center my-8 ">
+              <a href="#" alt="huyhoang-doit">
+                <div class="text-xl mb-3 hover:text-coffee-400">
+                  Black Tea Cup
+                </div>
+              </a>
+              <div class="">
+                <span class="text-xl text-coffee-400">$15.00</span>
+                <span class="ml-2 text-gray-400 line-through">$ 29.00 USD</span>
+              </div>
+            </div>
+          </div>
+          <div class="hdi-product-card ">
+            <div class="h-[380px] bg-[url('./img/feature_mug_5.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="huyhoang-doit">
+                <div class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out 
+                                        hover:duration-300 relative group">
+                  <!-- <div
+                                            class="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400">
+                                            On Sale.
+                                        </div> -->
+                  <div
+                    class="hdi-button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn ">
+                    Explore Mug</div>
+                </div>
+              </a>
+            </div>
+            <div class="text-center my-8 ">
+              <a href="#" alt="huyhoang-doit">
+                <div class="text-xl mb-3 hover:text-coffee-400">
+                  B&W Essentials Mug
+                </div>
+              </a>
+              <div class="">
+                <!-- <span class="text-xl text-coffee-400">$70.00</span> -->
+                <span class="ml-2 text-gray-500">$ 19.00 USD</span>
+              </div>
+            </div>
+          </div>
+          <div class="hdi-product-card ">
+            <div class="h-[380px] bg-[url('./img/feature_mug_6.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="huyhoang-doit">
+                <div class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out 
+                                        hover:duration-300 relative group">
+                  <!-- <div
+                                            class="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400">
+                                            On Sale.
+                                        </div> -->
+                  <div
+                    class="hdi-button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn ">
+                    Explore Mug</div>
+                </div>
+              </a>
+            </div>
+            <div class="text-center my-8 ">
+              <a href="#" alt="huyhoang-doit">
+                <div class="text-xl mb-3 hover:text-coffee-400">
+                  Winter Style Mug
+                </div>
+              </a>
+              <div class="">
+                <!-- <span class="text-xl text-coffee-400">$70.00</span> -->
+                <span class="ml-2 text-gray-500">$ 25.00 USD</span>
+              </div>
+            </div>
+          </div>
+          <div class="hdi-product-card ">
+            <div class="h-[380px] bg-[url('./img/feature_mug_7.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="huyhoang-doit">
+                <div class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out 
+                                        hover:duration-300 relative group">
+                  <!-- <div
+                                            class="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400">
+                                            On Sale.
+                                        </div> -->
+                  <div
+                    class="hdi-button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn ">
+                    Explore Mug</div>
+                </div>
+              </a>
+            </div>
+            <div class="text-center my-8 ">
+              <a href="#" alt="huyhoang-doit">
+                <div class="text-xl mb-3 hover:text-coffee-400">
+                  Ceramic Tea
+                </div>
+              </a>
+              <div class="">
+                <!-- <span class="text-xl text-coffee-400">$70.00</span> -->
+                <span class="ml-2 text-gray-500">$ 46.00 USD</span>
+              </div>
+            </div>
+          </div>
+          <div class="hdi-product-card ">
+            <div class="h-[380px] bg-[url('./img/feature_mug_8.jpg')] bg-cover bg-no-repeat bg-center">
+              <a href="#" alt="huyhoang-doit">
+                <div class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out 
+                                        hover:duration-300 relative group">
+                  <!-- <div
+                                            class="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400">
+                                            On Sale.
+                                        </div> -->
+                  <div
+                    class="hdi-button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn ">
+                    Explore Mug</div>
+                </div>
+              </a>
+            </div>
+            <div class="text-center my-8 ">
+              <a href="#" alt="huyhoang-doit">
+                <div class="text-xl mb-3 hover:text-coffee-400">
+                  No Handle Bar Cup
+                </div>
+              </a>
+              <div class="">
+                <!-- <span class="text-xl text-coffee-400">$70.00</span> -->
+                <span class="ml-2 text-gray-500">$ 34.00 USD</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- End more-products -->
+      <div
+        class="subscribe-us w-full max-w-screen-2xl h-[350px] bg-[#1d1f2e] flex flex-col justify-center items-center mb-24">
+        <div class="flex justify-center items-center px-6 xs:px-0 mb-6">
+          <div class="w-8 h-px bg-gray-700"></div>
+          <div class="uppercase mx-4 tracking-widest text-gray-400 font-bold text-xs text-center">
+            Sign up and get coffee bags
+          </div>
+          <div class="w-8 h-px bg-gray-700"></div>
+        </div>
+        <div class="text-4xl mb-6 text-white">
+          Coffee Updates
+        </div>
+        <div class="hdi-form">
+          <div class="flex flex-col  md:flex-row justify-center items-center gap-3">
+            <div class="hdi-form-item text-center">
+              <input type="email" placeholder="ex:huyhoangdoit.171@gmail.com" class="px-6 py-4 w-[350px] max-w-[80%] xs:max-w-full bg-inherit border-[1px] border-gray-700 outline-none
+                                text-white leading-5 hover:border-gray-300 focus:border-gray-300 duration-500 placeholder:uppercase placeholder:text-xs placeholder:tracking-widest
+                                placeholder:font-semibold">
+            </div>
+            <div class="hdi-form-item text-center">
+              <button type="submit"
+                class="hdi-button bg-white text-gray-900 w-[350px] max-w-[80%] xs:max-w-full md:w-max max-h-[54px]">Subscribe</button>
+            </div>
+          </div>
+
+        </div>
+      </div><!-- End subscribe-us -->
+
+      <footer class="footer w-[95%] lg:w-[65%] mx-auto pb-24 text-gray-500 text-sm">
+        <div class="flex flex-col text-center md:text-left md:flex-row gap-8">
+          <div class=" basis-2/6">
+            <div class="font-bold text-xl mb-4 text-gray-800">CoffeStyle.</div>
+            <div class="mb-20">Delivering the best coffee life since 1996. From coffee geeks to the real
+              ones.
+            </div>
+            <div class="text-gray-400 hover:text-coffee-400">HuyHoang-doit. © 2023</div>
+          </div>
+          <div class="basis-1/6">
+            <div class="uppercase font-semibold tracking-wider text-gray-600 mb-4">Menu</div>
+            <div class="flex flex-col gap-3">
+              <div class=""><a href="#" class="hover:text-coffee-400 cursor-pointer">Home</a></div>
+              <div class=""><a href="#" class="hover:text-coffee-400 cursor-pointer">Out Products</a>
+              </div>
+              <div class=""><a href="#" class="hover:text-coffee-400 cursor-pointer">About</a></div>
+              <div class=""><a href="#" class="hover:text-coffee-400 cursor-pointer">Contact</a></div>
+              <div class=""><a href="https://github.com/huyhoang-doit" target="_blank"
+                  class="hover:text-coffee-400 cursor-pointer">HuyHoang-doit</a>
+              </div>
+            </div>
+          </div>
+          <div class="basis-1/6">
+            <div class="uppercase font-semibold tracking-wider text-gray-600 mb-4">Follow us</div>
+            <div class="flex flex-col gap-3">
+              <div class=""><a href="https://www.facebook.com/lvhh171" class="hover:text-coffee-400 cursor-pointer"
+                  target="_blank">Facebook</a></div>
+              <div class=""><a href="#" class="hover:text-coffee-400 cursor-pointer" target="_blank">Instagram</a></div>
+              <div class=""><a href="https://github.com/huyhoang-doit" class="hover:text-coffee-400 cursor-pointer"
+                  target="_blank">Github</a></div>
+              <div class=""><a href="#" class="hover:text-coffee-400 cursor-pointer">Twitter</a></div>
+            </div>
+          </div>
+          <div class="basis-2/6">
+            <div class="uppercase font-semibold tracking-wider text-gray-600 mb-4">Contact us</div>
+            <div class="mb-4">
+              We&apos;re Always Happy to Help
+            </div>
+            <div class="mb-16 font-medium text-gray-800 text-xl tracking-wide"><a href="#"
+                class="hover:text-coffee-400 cursor-pointer">huyhoangdoit.171@gmail.com</a></div>
+            <div class=""><a href="#" target="_blank" class="text-gray-400 hover:text-coffee-400 cursor-pointer">Powered
+                by
+                HuyHoang-doit</a></div>
+
+          </div>
+        </div>
+      </footer>
+    </div><!-- End content wrapper #1 -->
+  </div><!-- End root -->
+  <script type="text/javascript" src="./main.js"></script>
+</body>
+
+</html>
