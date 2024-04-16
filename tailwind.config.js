@@ -31,10 +31,15 @@ module.exports = {
           from: { opacity: 0 },
           to: { opacity: 1 },
         },
+        rightIn: {
+          "0%": { transform: "translateX(100%)", opacity: 0 },
+          "100%": { transform: "translateX(0)", opacity: 1 },
+        }
       },
       animation: {
         slideDown: "slideDown .2s linear",
         fadeIn: "fadeIn 0.5s ease-in-out",
+        rightIn: "rightIn 0.5s ease-in-out",
       },
       backgroundImage: {
         "slider-bg": "url('./img/slider_bg.jpg')",

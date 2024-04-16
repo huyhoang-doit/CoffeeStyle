@@ -53,7 +53,7 @@
 
 
 #root {
- @apply h-lvh overflow-x-hidden overflow-y-auto;
+ @apply h-lvh overflow-x-hidden overflow-y-auto relative;
 }
 
 #root {
