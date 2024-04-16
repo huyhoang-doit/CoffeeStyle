@@ -4,8 +4,7 @@
 @tailwind utilities;
 
 /* hdi == huyhoangdoit :)) */
-/* STYLE - index.html */
-
+/* index.html */
 .hdi-topmenu-expanded {
   @apply absolute top-10 z-50 w-full text-center  bg-white bg-opacity-90 animate-slideDown;
 }
@@ -86,52 +85,7 @@
   }
 }
 
-/* #root {
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 2px;
-}
-
-.hdi-parallax,
-.hdi-static {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  flex-direction: column;
-}
-
-.hdi-parallax {
-  height: 40vh;
-}
-
-.hdi-static {
-  height: auto;
-  z-index: 999;
-  background: white;
-}
-
-.hdi-parallax-img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-attachment: fixed;
-  z-index: -1;
-  background-size: cover;
-  background-position: center;
-}
-@media screen(xl) {
-  .hdi-parallax {
-    height: 70vh;
-    transform-style: preserve-3d;
-  }
-  .hdi-parallax-img {
-    transform: translateZ(-1px) scale(1.5);
-  }
-} */
-
-/* STYLE - products.html */
+/*products.html */
 .hdi-bt-style {
   @apply text-coffee-200 hover:text-coffee-600 w-full md:w-max border-solid border-[1px] border-gray-200 hover:border-coffee-200 delay-300;
 }
